@@ -7,5 +7,5 @@ If 'plyr' package is not instaled, please install it first.
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 2. unzip the file and place it in the current working directory of R. (if you do not know where is the working directory, you may type the command 'getwd()' to get the current working directory)
 3. Place the 'run_analysis.R' in the current working directory of R.
-4. Execute the script by typing the command 'Source("run_analysis.R")'.
+4. Execute the script by typing the command 'source("run_analysis.R")'.
 5. Two data files ('tidyData1.txt' and 'tidyData2.txt') will be created in the current working folder of R.

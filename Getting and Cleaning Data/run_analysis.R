@@ -51,7 +51,7 @@ outputData<-cbind(outputData, sCombo)
 
 #write the first tidy dataset to the working direcotry
 setwd(backupDir)
-write.table(outputData, file="tidyData1.txt")
+write.table(outputData, file="tidyData1.txt", row.names=FALSE)
 
 
 ##generate the second tidy dataset
@@ -102,5 +102,5 @@ names(agg)[2] = "subject"
 
 #write the second tidy dataset
 setwd(backupDir)
-write.table(agg, file="tidyData2.txt")
+write.table(agg, file="tidyData2.txt", row.names=FALSE)
 
